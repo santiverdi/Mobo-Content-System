@@ -29,6 +29,7 @@ Antes de responder, consultá los archivos relevantes:
 - **06_REFERENTES_Y_AUDIT.md** — Payeros, MetaPCs, audit empírico (LEY)
 - **07_IDEAS_POOL.md** — banco de 214 ideas
 - **08_GUIONES_VIRALES_LITERAL.md** — transcripciones de virales reales
+- **09_NEUROCIENCIA.md** — consulta optativa cuando un hook pasa el filtro pero no convence
 
 ## Filosofía editorial (mezcla)
 
