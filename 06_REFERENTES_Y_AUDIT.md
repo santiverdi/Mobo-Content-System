@@ -103,8 +103,11 @@ Estos canales se monitorean para detectar temas que están explotando, **no para
 | Parte 15 — GPU no gira fanes | 8,215 | 6 |
 | Tip para limpiar PC | 7,868 | 25 |
 | Parte 14 — Windows en M2 | 35,153 | 26 |
+| Incognito myth (TikTok, May 2026) | ~1,400 (1h) | <!-- VERIFICAR métrica final --> |
 
 **Caída entre Parte 10 → Parte 12-15 = 95%.** Misma cuenta, misma audiencia, mismo período. El problema NO es algorítmico ni de plataforma.
+
+**Flop "incognito myth" (mayo 2026)**: hook *"uso modo incognito pensando que nadie me ve y me acabo de enterar que mi proveedor de internet ve todo igual"*. Diagnóstico: spoiler en el hook (ver Regla 10 abajo). 1.4K en 1h en TikTok con tema universal = flop.
 
 ---
 
@@ -136,6 +139,7 @@ Estos canales se monitorean para detectar temas que están explotando, **no para
 2. **Tutorial sin tensión** → Tip para limpiar PC (2/10), Parte 12 Qué instalar (3/10). Empezás a explicar y el viewer ya skipeó.
 3. **In medias res sin setup** → Parte 14, 15, 12. Hooks que asumen contexto previo de la serie.
 4. **Reacción a contenido externo** → DLSS 5 (4/10). Asume audiencias solapadas, casi nunca es así.
+5. **Spoiler en el hook** → Incognito myth (1.4K en 1h, TikTok, May 2026). Hooks que dicen setup + revelación en la misma frase matan el gap. Ver Regla 10.
 
 ---
 
@@ -214,6 +218,24 @@ Después del conflicto del viewer en primera persona, el patrón "te están roba
 Estructura: alguien paga por algo, recibe menos de lo que cree, no sabe por qué. La causa oculta puede ser técnica (bits vs bytes, chipset que no permite OC) o comercial (ISP, antivirus, marketing RGB).
 
 **Cómo usarla**: aplicable cuando la idea involucra un gasto recurrente o una compra mal informada. Activa indignación + WhatsApp-share porque el viewer manda el video a otro que está en la misma situación.
+
+### Regla 10 — Anti-patrón "spoiler en el hook"
+
+Si la frase de apertura contiene **tanto la creencia común como la revelación que la rompe**, el curiosity gap muere antes de empezar. El viewer recibe la "revelación" gratis en los primeros segundos y no tiene razón para quedarse.
+
+**Caso flop validado**: *"uso modo incognito pensando que nadie me ve y me acabo de enterar que mi proveedor de internet ve todo igual"* (incognito myth, TikTok mayo 2026, ~1.4K views en 1h con tema universal).
+
+**Diagnóstico**:
+- Setup ("uso incognito pensando que nadie me ve") + resolución ("ISP ve todo") en la misma frase
+- 24 palabras / ~6 segundos — demasiado largo para los primeros 2s de TikTok
+- Awareness previa ✅ pero gap delimitado ❌ (lo cierra el propio hook)
+
+**Cómo usarla**: el hook plantea **el setup o la pregunta**, nunca la revelación. La revelación va en el desarrollo. Reformulaciones tipo:
+- *"Uso incognito pensando que nadie me ve."* (pausa) → desarrollo
+- *"Hay 4 personas que te ven todo aunque uses incognito."* (promete payload, no lo entrega)
+- *"Borrar el historial es lo MÁS visible que podés hacer."* (invierte expectativa sin spoilear)
+
+**Test rápido pre-grabación**: leé tu hook en voz alta. Si después de decirlo el viewer ya sabe la respuesta del video, reescribilo.
 
 ---
 

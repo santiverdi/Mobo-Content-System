@@ -95,6 +95,14 @@ Avisá al final que la versión final tiene que pasar por la pluma de Santi.
 - Reciclar la misma analogía entre guiones distintos
 - CTAs genéricos ("seguime", "dale like", "guardá este video")
 
+### Anti-patrón obligatorio: "spoiler en el hook"
+
+Antes de validar cualquier hook, leerlo en voz alta. Si la frase de apertura
+contiene tanto la creencia común como la revelación que la rompe, el gap
+muere y el video flopea (validado con incognito myth, mayo 2026: 1.4K views
+en 1h con tema universal). Ver Regla 10 en `06_REFERENTES_Y_AUDIT.md`.
+El hook plantea el setup o la pregunta, nunca la revelación.
+
 ### Test de filtro para cualquier idea nueva:
 
 Antes de desarrollar, contestá:
