@@ -216,7 +216,7 @@ Banco completo: 214 ideas categorizadas + ejecutadas + pendientes. Se actualiza 
 001 - Apagar y prender la PC seguido la arruina
 002 - Overclockear te quema el procesador
 003 - Necesitás un antivirus pago en 2025
-004 - El modo incógnito te hace invisible en internet
+004 - El modo incógnito te hace invisible en internet ✅ EJECUTADO 2026-05-02 (Formato A, "Fibertel se caga de risa")
 005 - Más núcleos de CPU = siempre mejor para juegos
 006 - Un SSD NVMe Gen5 te da más FPS que un Gen3
 007 - Tenés que desfragmentar tu SSD
