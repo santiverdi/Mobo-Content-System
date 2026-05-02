@@ -362,3 +362,39 @@ Banco para arquetipo "amigo con 2000 juegos en Steam":
 - "Lo agarro cuando termine los que ya tengo"
 
 (Más frases por arquetipo a desarrollar.)
+
+---
+
+# PARTE 5 — REGLAS OPERATIVAS DE SELECCIÓN Y CALENDARIZACIÓN
+
+> Surgieron del audit del banco (mayo 2026). Aplicar antes de elegir qué grabar en una semana dada.
+
+## Regla A — Tutoriales y Versus son estructuralmente incompatibles con Reels de 47s
+
+Validado empíricamente: las 11 ideas de Tutoriales y las 10 de Versus del banco tuvieron 0 clasificaciones 🟢 en la auditoría. No es que estén mal escritas — el formato de Reel corto es el vehículo equivocado.
+
+**Implicancia**: estas categorías no se reformulan para Reels. Se mueven a YouTube como contenido evergreen largo (>10 min) o se descartan del pipeline de short-form.
+
+**Lista de categorías que NO entran al pipeline de Reels:**
+- Tutoriales (categoría completa)
+- Versus puro (categoría completa)
+- Tips de atajos de teclado puros (subcategoría dentro de Tips)
+
+## Regla B — Evitar canibalización de clusters temáticos
+
+Algunos temas tienen alta superposición — publicar varios videos del mismo cluster en ventana cercana los canibaliza entre sí.
+
+**Cluster térmico** (detectado en auditoría):
+- Pasta térmica desbordada (A1-005)
+- Plástico al cooler (A1-016)
+- Fans al revés (A1-017)
+- Pasta encima de la del fabricante (A1-056)
+
+Todas son thermal management por error del usuario. Elegir 2 con mayor diferencia visual y de causa, descartar las demás del pipeline inmediato.
+
+**Otros clusters detectados:**
+- Cluster RAM: 011, 023, 035 (problemas de configuración/velocidad)
+- Cluster gabinete: 003, 010, 013, 017 (errores de armado físico)
+- Cluster fuente: 040, 042, 047 (PSU mal elegida o mal conectada)
+
+**Cómo usarla**: antes de elegir el guion de la semana, chequear que no se publicó otro del mismo cluster en las últimas 4 semanas. Si hay solapamiento, elegir un cluster distinto.

@@ -187,6 +187,36 @@ Los hooks ganadores tienen texto pre-reproducción que ya genera tensión: "DESA
 
 ---
 
+## Reglas extras del audit del banco (mayo 2026)
+
+> Estas tres reglas surgieron de auditar 214 ideas contra el sistema. Tienen autoridad equivalente al audit original — son evidencia empírica de qué patrones funcionan en formulación de ideas, no solo en ejecución de videos.
+
+### Regla 7 — La fórmula "Compré X y me da Y" es la más rentable del banco
+
+Las ideas con estructura "pagué/compré/contraté X y obtuve Y" son sistemáticamente las de mayor curiosity gap. El conflicto es siempre entre lo que el viewer pagó y lo que obtiene. Validado empíricamente en el audit (1Gbps→100MB, 8/10) y reproducido en otras 6 ideas verdes del banco.
+
+Aplicable transversalmente a: RAM, SSD, internet, antivirus, sillas gamer, monitores, fuentes, GPUs.
+
+**Cómo usarla**: si una idea no tiene esta estructura pero tiene una compra implícita del viewer, reformularla así casi siempre la sube de 🟡 a 🟢.
+
+### Regla 8 — Tercera persona pierde, primera persona gana
+
+Las ideas formuladas con sujeto en tercera persona ("el cliente que...", "mucha gente compra...", "Ada Lovelace fue...") son consistentemente más débiles que las que ponen al viewer como sujeto activo.
+
+Validado en el audit con casos contrastivos: QWERTY (viral, primera persona implícita "tu teclado") vs Ada Lovelace (descartada, tercera persona histórica).
+
+**Cómo usarla**: la reformulación más simple del banco es trasladar el sujeto de la oración del creador/tercero al viewer. Es la que más ideas rescata de 🟡 a 🟢.
+
+### Regla 9 — La injusticia económica es el segundo gancho más fuerte
+
+Después del conflicto del viewer en primera persona, el patrón "te están robando plata sin que lo sepas" es el de mayor activación.
+
+Estructura: alguien paga por algo, recibe menos de lo que cree, no sabe por qué. La causa oculta puede ser técnica (bits vs bytes, chipset que no permite OC) o comercial (ISP, antivirus, marketing RGB).
+
+**Cómo usarla**: aplicable cuando la idea involucra un gasto recurrente o una compra mal informada. Activa indignación + WhatsApp-share porque el viewer manda el video a otro que está en la misma situación.
+
+---
+
 ## 5 acciones concretas (sacadas del audit)
 
 1. **El primer texto del video tiene que ser el problema del viewer**, no el del creador.
