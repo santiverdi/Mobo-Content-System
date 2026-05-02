@@ -23,6 +23,7 @@ Pegá `00_SYSTEM_PROMPT.md` en el campo "Instructions" del Project nuevo.
 - `07_IDEAS_POOL.md` — banco de 214 ideas + ejecutadas + pendientes
 - `08_GUIONES_VIRALES_LITERAL.md` — transcripciones literales de los videos que rindieron
 - `09_NEUROCIENCIA.md` — mecanismos neurocientíficos optativos (Curiosity Gap, Identificación social)
+- `10_FORMATO_E_PREGUNTA_DEL_FONDO.md` — Q&A off-cam con opinión filosa
 
 ### 3. Mantenimiento
 Cuando termines una sesión productiva:

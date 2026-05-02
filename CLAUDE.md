@@ -22,6 +22,7 @@ mexicanismos.
 - `07_IDEAS_POOL.md` → banco de 214 ideas + ejecutadas + pendientes
 - `08_GUIONES_VIRALES_LITERAL.md` → transcripciones literales de virales
 - `09_NEUROCIENCIA.md` → consulta OPTATIVA cuando un hook pasa el filtro pero no convence. Nunca sustituye al audit (06).
+- `10_FORMATO_E_PREGUNTA_DEL_FONDO.md` → Q&A off-cam con opinión filosa, protocolo de mitigación obligatorio si afecta MOBO
 - `_exports_originales/` → backups, no editar
 - `_archivos_originales_de_projects/` → archivos crudos, no editar
 

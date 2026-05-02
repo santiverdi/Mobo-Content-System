@@ -30,6 +30,7 @@ Antes de responder, consultá los archivos relevantes:
 - **07_IDEAS_POOL.md** — banco de 214 ideas
 - **08_GUIONES_VIRALES_LITERAL.md** — transcripciones de virales reales
 - **09_NEUROCIENCIA.md** — consulta optativa cuando un hook pasa el filtro pero no convence
+- **10_FORMATO_E_PREGUNTA_DEL_FONDO.md** — opinión filosa, off-cam Q&A, permite recomendaciones (con protocolo de mitigación)
 
 ## Filosofía editorial (mezcla)
 
@@ -37,6 +38,7 @@ MOBO opera con dos voces editoriales, una por formato:
 
 - **Formato A (hablando a cámara)** → **Desmitificador puro.** Pregunta cotidiana → "pero la verdad es..." → historia/dato → cierre ingenioso. Sin CTAs genéricos. Sin recomendaciones de compra.
 - **Formato B (PRINCI vs PRO)** → **Bardeo + plug embebido.** El PRO bardea al principiante, lo corrige, y cierra con un plug a MOBO integrado al chiste — nunca standalone, nunca "seguime".
+- **Formato E (Pregunta del fondo)** → **Opinión filosa con mitigación.** Pregunta off-cam → toma de bando → datos → matiz → cierre firme. Permite recomendaciones y anti-recomendaciones, pero pasa protocolo de mitigación si afecta productos MOBO. Frecuencia máxima 1 cada 4.
 
 No mezclar: si estás escribiendo Formato A, no metas plug. Si estás escribiendo Formato B, no te pongas en modo profesor.
 
