@@ -135,6 +135,90 @@ Tres formas de pivot que activan prediction error:
 
 ---
 
+# COMPLEMENTOS TEÓRICOS (mayo 2026)
+
+> Estos tres conceptos vienen de research adicional sobre neurociencia 
+> aplicada a video corto. NO son mecanismos nuevos — son matices 
+> que refuerzan reglas que ya tenés en el sistema. Si entran en 
+> conflicto con el audit (06), gana el audit.
+
+## Complemento 1 — Saliencia pura en los primeros milisegundos
+
+El cerebro tiene un mecanismo de detección de novedad que opera en 
+**decenas de milisegundos** (Schultz et al.), antes de que el viewer 
+procese conscientemente qué está mirando. Es una respuesta dopaminérgica 
+**no selectiva** — detecta cualquier estímulo sorpresivo, sin importar 
+si es positivo o negativo.
+
+**Cómo se relaciona con tu sistema**: la regla 6 del audit ("elemento 
+visual inesperado en el primer frame") es esto exacto. 8 de 8 virales 
+lo cumplían. Esto le da el fundamento neurocientífico: no es regla 
+estética, es regla biológica. El viewer no decide quedarse en el 
+video — su sistema dopaminérgico lo decide por él en los primeros 
+100-300 milisegundos.
+
+**Implicancia operativa**: el primer frame no se piensa. Se diseña 
+para perturbar. Si el viewer puede predecir lo que va a ver en el 
+frame 1, no hay activación. Cuanto más impredecible visualmente, 
+mejor.
+
+## Complemento 2 — Peak-End Rule (Kahneman)
+
+El cerebro NO recuerda una experiencia audiovisual como un promedio. 
+Almacena en memoria a largo plazo solo dos cosas: **el momento de 
+mayor intensidad emocional (el "pico") y cómo terminó la experiencia 
+(el "end")**.
+
+**Cómo se relaciona con tu sistema**: la arquitectura del Formato A 
+(archivo 02) ya hace esto sin nombrarlo. El **pivot al 2/3** crea el 
+pico (segundo gancho que sorprende). El **cierre con remate fuerte** 
+crea el end memorable. Por eso la arquitectura funciona.
+
+**Implicancia operativa**: 
+- Un video puede tener 30 segundos "promedio" y rendir mal si no 
+  tiene pico ni end fuerte.
+- Un video puede tener 30 segundos "promedio" y rendir bien si 
+  tiene un pico claro al 2/3 y un end con remate.
+- **El medio del video importa menos que el pico y el cierre.** 
+  Si tenés que recortar tiempo, recortá del medio, no del cierre.
+
+## Complemento 3 — Sesgo de negatividad y valencia negativa
+
+Análisis algorítmicos de ~30 millones de publicaciones (Stanford HAI) 
+muestran que **historias con valencia negativa + alta excitación se 
+propagan más rápido** que las positivas. La red de saliencia humana 
+prioriza amenazas sobre recompensas — es ontogenético, no cultural.
+
+**Cómo se relaciona con tu sistema**: la marca MOBO ya opera en este 
+registro con frases como "me recagaron", "me cagaron", "qué mierda", 
+"al pedo", "te están robando". El audit empírico lo confirma: la 
+regla 9 ("injusticia económica") es exactamente este mecanismo. 
+"Te están cagando con el internet" pega más que "Disfrutá tu nueva 
+conexión".
+
+**Implicancia operativa**:
+- Cuando una idea tenga dos reformulaciones posibles (positiva y 
+  negativa), elegir la negativa **siempre que sea verdad**. Si es 
+  fabricar negatividad, no.
+- "Por qué tu PC va lenta" pega más que "Cómo hacer que tu PC 
+  vuele".
+- "No compres esto" pega más que "Comprá esto otro".
+- Excepción: el viral de "No es tan difícil ¿vieron?" rompe el 
+  patrón con valencia positiva. Eso es señal de que el patrón 
+  no es absoluto — es probabilístico. Si tenés una idea con 
+  valencia positiva fuerte (desmontar barrera de entrada), 
+  funcionar puede.
+
+**Cuándo NO aplicar**: 
+- Si la negatividad es fabricada, el viewer la huele.
+- Si comprometés la marca a largo plazo (ej: tirarte contra una 
+  marca que vendés en MOBO sin protocolo de mitigación).
+- Si todo el canal es negativo, el viewer satura. Por eso el 
+  Formato A es desmitificador (filo intelectual), no atacador 
+  emocional puro.
+
+---
+
 # QUÉ DESCARTÉ DEL RESEARCH (y por qué)
 
 Para que sepas que esto fue filtrado, no copy-paste:
