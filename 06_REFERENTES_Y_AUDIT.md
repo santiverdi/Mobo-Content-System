@@ -239,6 +239,61 @@ Si la frase de apertura contiene **tanto la creencia común como la revelación 
 
 ---
 
+## Audit de ventas — Database real abril 2026
+
+> Análisis cruzado entre database de ventas de MOBO (PostgreSQL) y CSV
+> de Meta Ads abril. Confirma o refuta las suposiciones operativas
+> previas. Tiene autoridad equivalente al audit de Instagram y TikTok
+> para decisiones de negocio.
+
+### Datos base abril 2026
+
+- **63 ventas totales**, USD $28,905 facturación, USD $10,088 margen
+- **52 Presencial (83%) / 11 Web (17%)**
+- Margen promedio: **35%**
+- Ticket promedio: USD $459
+
+### Composición real del negocio
+
+| Tipo de venta | Cantidad | % Ingreso | % Margen | Canal típico |
+|---------------|----------|-----------|----------|--------------|
+| PC Armada | 20 (32%) | 57% | 53% | 100% Presencial |
+| GPU sola | 26 (41%) | 25% | 29% | 35% Web, 65% Presencial |
+| Combo parcial | 8 (13%) | 15% | 15% | 100% Presencial |
+| Componente suelto | 9 (14%) | 3% | 3% | 22% Web |
+
+### Regla 16 — El negocio core de MOBO es PCs armadas presenciales
+
+Las 20 PCs armadas vendidas en abril son el **57% de la facturación
+y 53% del margen** total. Todas se cierran Presencial.
+
+**Implicancia para contenido**: el contenido orgánico que apunta a
+construir confianza para que el viewer "venga al local a armarse
+una PC" es contenido de alto valor de negocio, aunque no sea trazable
+directamente. El Formato A (desmitificador) y el Formato B (PRINCI
+vs PRO) construyen esa confianza incluso sin generar shares
+medibles.
+
+### Regla 17 — La conversión real ad → venta es ~1%, no 20%
+
+Validado empíricamente con cruce de database + ads de abril. La
+intuición humana sobreestima conversión por sesgo de memoria
+(recordamos al que compró, olvidamos a los 100 que escribieron y no).
+
+**Implicancia operativa**: cualquier proyección de ROAS basada en
+intuición tiene que dividirse por 20-25 para acercarse a la realidad
+medible.
+
+### Regla 18 — Sin tracking de origen de lead, optimización ciega
+
+El sistema actual de MOBO no permite saber qué % de las ventas
+Presencial vinieron originalmente de ads. Hasta que se implemente,
+**ninguna decisión de "pausar/escalar campaña X" es informada**.
+Solo se pueden ver patrones gruesos (ej: "VB Compra Placas V genera
+mucho mensaje barato").
+
+---
+
 ## 5 acciones concretas (sacadas del audit)
 
 1. **El primer texto del video tiene que ser el problema del viewer**, no el del creador.

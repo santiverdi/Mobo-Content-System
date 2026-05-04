@@ -62,3 +62,10 @@ De los 4 exports llegaron cosas que NO van en este sistema:
 3. **Project paralelo de simulador de viewer:** existe pero no fue exportado. Si lo querés integrar, hay que vaciarlo aparte.
 4. **Pipeline de Claude Code (`/mobo-guion`, `/mobo-audit`):** vive afuera de este Project. No lo toco.
 5. **Build presentations:** mencionado en uno de los Projects pero sin framework. Cuando lo armes, va a un archivo nuevo.
+6. **Tracking de origen de lead en POS de MOBO** (CRÍTICO): el sistema
+   actual solo tiene 2 canales (Presencial / Web). Imposible saber qué
+   % de las PCs armadas vendidas presencialmente vinieron de ads. Hasta
+   resolver esto, el Formato G opera ciego sobre qué campaña realmente
+   rinde. Acción concreta: agregar campo obligatorio "¿Cómo nos conoció?"
+   con 5 opciones (Ad IG/FB, Recomendación, Búsqueda Google, Walk-in,
+   Cliente recurrente). Implementar antes de cualquier escalado de ads.
