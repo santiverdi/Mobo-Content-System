@@ -346,6 +346,26 @@ Banco completo: 214 ideas categorizadas + ejecutadas + pendientes. Se actualiza 
 - "El que cambia la GPU cada 6 meses"
 - "El que jura que el RGB le sube los FPS"
 
+## Ideas derivadas del corpus de comments YT (mayo 2026)
+
+> Validadas empíricamente con el análisis de 18.424 comments en `_scripts/mobo_comments_report.md`. Cada una pasa el test de filtro de 5 preguntas (CLAUDE.md).
+
+### Plan completo desarrollado
+- **"Le faltaba la mitad de la RAM y no se enteraba"** → Formato C híbrido (cliente real + revelación técnica). Plan completo en `_planes/video_ram_dual_channel.txt`. Ataca dolor #1 del corpus (RAM/dual channel, 1.328 menciones) + gaffe propio validado (1.177 + 209 likes correctivos). Próximo a ejecutar.
+
+### Ideas pendientes derivadas del corpus
+
+- **"¿Qué GPU para Ryzen 5 8600G?"** — pregunta literal con 30 likes en comments. Modelo exacto, pasa Regla 11.
+- **"5800X3D + RTX 5060 Ti, ¿hay cuello de botella?"** — pregunta con 14 likes. Modelo exacto.
+- **"RAM 1x16 vs 2x8: el debate"** — debate caliente con 4+ comments enfrentados. Mito vs realidad.
+- **"¿Cada cuánto hago mantenimiento de la PC?"** — pregunta universal, 24 likes.
+- **"Casi la cagué con el SSD del sistema"** — Formato A storytime, dolor emocional #2 (miedo a romper algo). Comment de 77 likes lo valida.
+- **"Cómo comprar usado sin que te claven"** — 34 menciones de "mejor usado" en corpus. Insight contraintuitivo + plug embebido del local como alternativa confiable.
+
+### Hipótesis de nicho vacío detectada
+
+Casi nadie en el corpus pregunta sobre **cómo armar la PC físicamente** (cables, tornillos, orden de armado, fricciones de montaje). Posibilidades: o lo dan por sabido, o no se animan a preguntar (dolor emocional #3, vergüenza). Vale testear con un Formato A o B sobre el tema antes de descartar.
+
 ## Series cuestionadas por el audit
 - ⚠️ **Serie de armado PC (Partes 1-15)**: la Parte 10 fue el último viral. Las 12-15 colapsaron 95%. Decisión pendiente: cerrar la serie o reformatear cada video como standalone.
 

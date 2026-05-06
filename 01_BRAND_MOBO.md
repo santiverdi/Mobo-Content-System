@@ -15,6 +15,17 @@ El contenido lo hace Santi (22), dueño de la marca, en formato selfie-style sin
 - Audiencia secundaria: hispanohablantes de Latam que toleran el rioplatense
 - Si scrollean rápido y no se enganchan en 2-3 segundos, siguen de largo
 
+### Dolores emocionales subyacentes (validados con corpus 18K comments YT, mayo 2026)
+
+Por debajo de las dudas técnicas hay 4 dolores emocionales que mueven a la audiencia. Apuntar a estos en el hook genera más share que apuntar al dato técnico puro.
+
+1. **Miedo a que te claven**: el viewer no sabe si el componente que le venden es el que necesita. Se traduce en *"¿es estafa?"*, *"¿esto sirve?"*, *"¿qué le pongo?"*. Activable con Regla 9 (injusticia económica).
+2. **Miedo a romper algo caro**: pines doblados, RAM mal puesta, fuente quemando componentes. *"casi lo hago con el SSD donde tengo el SO"* (77 likes). Activable con storytime de "casi la cago".
+3. **Vergüenza de no saber**: el principiante que no se anima a preguntar. Por eso explotan los Formato B con principiante humillado y los virales tipo "ERROR DE PRINCIPIANTE PT2" (top likes del corpus completo).
+4. **Compararse / inseguridad sobre la propia PC**: *"yo tengo X y me anda"* (398 menciones, defensiva). *"¿qué dice mi PC de mí?"* es identidad. Por eso funcionan las etiquetas "tu amigo el X" y los rankings.
+
+Fuente cruda: `_scripts/mobo_comments_report.md`.
+
 ## Tono
 
 - **Idioma**: español rioplatense argentino. Voseo siempre. Nunca "tú", nunca "ustedes" formal.

@@ -1,0 +1,168 @@
+==========================================================
+PLAN DE VIDEO — "Le faltaba la mitad de la RAM y no se enteraba"
+==========================================================
+Fecha del plan: 2026-05-06
+Origen: derivado de Audit de comments YT (06_REFERENTES_Y_AUDIT.md, Reglas 19-20)
+Dolor #1 del corpus (1.328 menciones de RAM/dual channel)
+Gaffe propio validado por 1.177 + 209 likes en comments correctivos
+
+
+----------------------------------------------------------
+LA IDEA
+----------------------------------------------------------
+"El cliente que armó la PC y le faltaba la mitad de la RAM (sin saberlo)"
+
+Ataca el dolor #1 del corpus, usa el gaffe ya validado, y aplica
+Regla 20 (cliente arquetipo del local + revelación técnica embebida).
+
+Pasa el test de filtro completo (5/5):
+  1. Conflicto del viewer ✅ (cualquiera con 2 RAMs puede tenerlo mal)
+  2. Twist ✅ (la PC andaba lenta y no era lo que él pensaba)
+  3. WhatsApp-able ✅ ("revisá tu PC, capaz tenés esto")
+  4. Modelo exacto en hook ✅ (nombrar mother o RAM concreta)
+  5. Personaje real ✅ (cliente del local)
+
+Cumple además: Regla 7 (compré X, obtuve Y), Regla 9 (injusticia
+económica), Regla 19 (gaffe correctivo), Regla 20 (arquetipo + técnica).
+
+
+----------------------------------------------------------
+FORMATO
+----------------------------------------------------------
+Formato C híbrido: cliente real + revelación técnica embebida.
+Mezcla:
+  - Voz tuya en off + a cámara intercalada
+  - Cliente real de B-roll (cara borrada o de espaldas si no quiere salir)
+  - Visuales técnicos sobreimpresos (slots, flechas, Task Manager)
+
+NO es: hablando a cámara puro, ni Payeros deadpan 100%, ni silent film.
+
+
+----------------------------------------------------------
+TONO
+----------------------------------------------------------
+- Argentino rioplatense, peer.
+- Bardeo afectuoso al cliente (NO humillante — el cliente queda como
+  "el bueno que se equivocó", no como "el boludo").
+- Didáctico embebido. La explicación técnica entra DENTRO del bardeo,
+  no como bloque separado.
+- Cero CTA explícito. La marca se vende con plug embebido del local.
+
+
+----------------------------------------------------------
+ESTRUCTURA DEL GUION (47s — duración máxima audit)
+----------------------------------------------------------
+
+[0-3s] HOOK VISUAL
+  Toma:    Close-up de mother con 2 RAMs en slots 1+2 (mal).
+           Texto sobreimpuesto: "TENÍA LA MITAD DE LA RAM"
+  Voz:     (sin voz, pura imagen)
+  Notas:   Regla 6 — elemento visual inesperado. Si sabés del tema,
+           el frame ya te grita "está mal". Si no, te genera curiosidad.
+
+[3-8s] SETUP DEL PERSONAJE
+  Toma:    B-roll del cliente (de atrás o cara difuminada) entregando
+           la PC en el local
+  Voz:     "Vino el flaco, armó la PC él, juraba que algo andaba mal.
+           Y tenía razón, pero no por lo que pensaba."
+  Notas:   Cliente real, no arquetipo genérico. Aplica Regla 20.
+
+[8-18s] EL ERROR (revelación técnica embebida)
+  Toma:    Plano cenital de la mother. Flecha animada apuntando a
+           slots 1+2 → tachados → flecha a slots 2+4. Manual de la
+           mother en el costado.
+  Voz:     "Tenía las dos memorias en los dos primeros slots. Andaba
+           en single channel. La PC te rinde la mitad. Y lo dice el
+           manual de la mother en chiquito, pero nadie lo lee."
+  Notas:   Acá entra el dato técnico. No frenás para "explicar" —
+           seguís narrando.
+
+[18-28s] PROOF (la cagada cuantificada)
+  Toma:    Pantalla split: FPS antes (single channel) vs después (dual)
+           en algún juego. O Task Manager mostrando 1 canal vs 2.
+  Voz:     "Mirá: con la RAM en single channel, 60 FPS. Cambiamos a
+           slots 2 y 4, sin tocar nada más, 90. Es la misma PC. Es la
+           misma RAM."
+  Notas:   Validable empíricamente. Si no tenés bench propio, mostrá
+           Task Manager (single/dual channel se ve ahí).
+           NO INVENTAR FPS — Regla 1 CLAUDE.md.
+
+[28-38s] EL TWIST MÁS GRANDE (donde se va el WhatsApp)
+  Toma:    Cámara a vos. Mirando a cámara.
+  Voz:     "Y lo peor: esto le pasa al 70% de los que arman la PC en
+           casa. Capaz tenés vos esto ahora mismo. Andá a Task Manager
+           → Memoria → fijate si dice 'Canales: 1' o 'Canales: 2'."
+  Notas:   Esto convierte save en share. El viewer se asusta pensando
+           que él lo tiene mal y le manda el video al amigo en paralelo.
+           VERIFICAR el dato de "70%" antes de grabar — si no es real,
+           reformular sin número.
+
+[38-47s] CIERRE + PLUG EMBEBIDO
+  Toma:    Vos en el local con la PC del cliente arreglada.
+  Voz:     "Si no querés andar con esto encima, traela al local y te
+           la chequeamos en 5 minutos. Y no, no es un truco para que
+           vengan — literal el flaco se fue tirando los FPS al techo."
+  Notas:   Plug que es un HACK (Trevi-style), no aviso. Ofrece valor
+           concreto antes de pedir nada.
+
+
+----------------------------------------------------------
+TÍTULO Y CAPTION
+----------------------------------------------------------
+Regla 5 audit: el texto pre-reproducción hace 50% del trabajo.
+
+Título principal:
+  "Le faltaba la mitad de la RAM y no se enteraba"
+
+Alternativos:
+  - "Su PC rendía 50% menos por este error"
+  - "Cambió 2 slots y ganó 30 FPS"
+
+Caption corto:
+  Cualquiera con 2 RAMs puede tenerlo mal. Andá a Task Manager →
+  Memoria. Si dice "Canales: 1", arreglalo hoy.
+
+
+----------------------------------------------------------
+TOMAS A GRABAR (lista de producción)
+----------------------------------------------------------
+1. Hero shot inicial: mother con RAMs en slots 1+2 + texto sobreimpuesto.
+   Iluminación dura, contraste alto.
+2. B-roll cliente: persona entregando torre en mostrador. Plano medio.
+   Cara fuera de cuadro o difuminada en post.
+3. Cenital de la mother: 4-5 segundos. Flechas animadas en post
+   (Submagic o CapCut).
+4. Pantalla del Task Manager: zoom a línea "Canales: 1" → corte →
+   "Canales: 2".
+5. Bench split-screen: dos clips de gameplay con FPS counter visible.
+   Si no tenés, screenshots de userbenchmark o test propio.
+6. Plano final tuyo: en el local, con la PC del cliente al lado
+   funcionando. Plano medio, fondo del local desenfocado.
+
+
+----------------------------------------------------------
+RIESGOS Y MITIGACIONES
+----------------------------------------------------------
+1. Mostrar el cliente sin permiso → cara difuminada o de atrás. O
+   actuado por alguien del equipo si el real no quiere.
+2. Si no tenés bench real → no inventar FPS (Regla 1 CLAUDE.md). Usar
+   Task Manager + capturas propias o benchmark público citando fuente.
+3. El gaffe era tuyo → este video lo arregla orgánicamente. No hace
+   falta admitirlo en cámara, el contenido correcto vale más que el
+   mea culpa.
+4. Dato del "70%" sin verificar → si no podés respaldarlo, reformular
+   como "te puede estar pasando ahora" sin número específico.
+
+
+----------------------------------------------------------
+CHECKLIST FINAL ANTES DE GRABAR
+----------------------------------------------------------
+[ ] Hook hablado nombra modelo exacto (no "Ryzen 5" genérico)
+[ ] Pasa el test de filtro 5/5
+[ ] No contiene lenguaje prohibido (Ferrari, "es como tener X y andar
+    en Y", CTAs genéricos, "comentá tu X y seguime")
+[ ] Hook NO contiene la revelación (Regla 10 — anti-spoiler)
+[ ] Cliente accedió a aparecer o cara difuminada confirmada
+[ ] Datos técnicos verificables (Regla 1)
+[ ] Duración total ≤47s
+[ ] Pluma de Santi pasó por el guion final
