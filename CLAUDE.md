@@ -25,6 +25,7 @@ mexicanismos.
 - `10_FORMATO_E_PREGUNTA_DEL_FONDO.md` → Q&A off-cam con opinión filosa, protocolo de mitigación obligatorio si afecta MOBO
 - `_exports_originales/` → backups, no editar
 - `_archivos_originales_de_projects/` → archivos crudos, no editar
+- `_scripts/` → scripts de scraping y análisis. `mobo_comments.csv` (18K comments YT) + `mobo_comments_report.md` (análisis temático). Reproducible. Ver Audit de comentarios en `06_REFERENTES_Y_AUDIT.md`.
 
 ## Reglas operativas para Claude Code
 
@@ -94,6 +95,7 @@ Avisá al final que la versión final tiene que pasar por la pluma de Santi.
 - "Un cable es un cable"
 - Reciclar la misma analogía entre guiones distintos
 - CTAs genéricos ("seguime", "dale like", "guardá este video")
+- "Comentá tu [procesador/placa/RAM/lo que sea] y seguime para más videos" (CTA prohibido literal, validado flop mayo 2026)
 
 ### Anti-patrón obligatorio: "spoiler en el hook"
 
@@ -109,8 +111,10 @@ Antes de desarrollar, contestá:
 1. ¿El conflicto es del viewer o del creador? (tiene que ser del viewer)
 2. ¿Tiene un twist o es lineal? (tutorial lineal = saves, no shares)
 3. ¿Alguien lo mandaría por WhatsApp o solo lo guardaría?
+4. ¿El hook nombra un modelo exacto (Ryzen 7 5700X) o una familia genérica (Ryzen 5)? Si es familia → reformular con modelo exacto. Ver Regla 11 en `06_REFERENTES_Y_AUDIT.md`.
+5. ¿Hay un **personaje real** (cliente del local, viewer arquetipo, hermano) o es recomendación neutral? Sin personaje, el video tiene techo bajo en MOBO (Regla 20 del audit, validada con corpus de 18K comments).
 
-Si las tres no son favorables, no escribir el guion. Avisar y reformular.
+Si las cinco no son favorables, no escribir el guion. Avisar y reformular.
 
 ## Sobre git
 

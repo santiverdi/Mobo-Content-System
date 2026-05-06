@@ -56,6 +56,9 @@ Estos canales se monitorean para detectar temas que están explotando, **no para
 ### Ruso (oro sin explotar en español)
 - Wylsacom, Droider, EasyCOM — mucho contenido viral que en español nadie tocó
 
+### Referente directo de Formato A (mayo 2026) — Trevi
+Creador hispano que ejecuta el mismo formato "qué GPU para [CPU]" con métricas virales reales. Caso de estudio comparativo en bloque "Caso Trevi vs MOBO" más abajo.
+
 ### Regla universal
 **Si el tema ya lo hizo Nate Gentile, MetaPCs (Zach) o un canal grande → descartar.** Buscar ángulo lateral.
 
@@ -104,6 +107,8 @@ Estos canales se monitorean para detectar temas que están explotando, **no para
 | Tip para limpiar PC | 7,868 | 25 |
 | Parte 14 — Windows en M2 | 35,153 | 26 |
 | Incognito myth (TikTok, May 2026) | ~1,400 (1h) | <!-- VERIFICAR métrica final --> |
+| Placa para Ryzen 5 5600 (May 2026) | 1,524 | 1 |
+| PC gamer para GTA 6 (May 2026) | 11,000 | 20 |
 
 **Caída entre Parte 10 → Parte 12-15 = 95%.** Misma cuenta, misma audiencia, mismo período. El problema NO es algorítmico ni de plataforma.
 
@@ -236,6 +241,128 @@ Si la frase de apertura contiene **tanto la creencia común como la revelación 
 - *"Borrar el historial es lo MÁS visible que podés hacer."* (invierte expectativa sin spoilear)
 
 **Test rápido pre-grabación**: leé tu hook en voz alta. Si después de decirlo el viewer ya sabe la respuesta del video, reescribilo.
+
+---
+
+### Regla 11 — Hook hablado con familia de CPU/GPU = gap muerto. Modelo exacto = gap vivo.
+
+Si el **hook hablado** (no solo el título) nombra una **familia genérica** ("Ryzen 5", "una placa Nvidia", "una RAM DDR4") en vez de un **modelo exacto** ("Ryzen 5 5600", "RTX 3060 Ti", "Corsair Vengeance 16GB 3200"), el viewer informado scrollea porque la pregunta es irresoluble sin más data, y el viewer no informado no se siente targeteado.
+
+**Importante**: el algoritmo y el viewer scorean por lo que se dice en los primeros segundos, no por el título. Título específico + hook hablado genérico = sigue siendo flop.
+
+**Caso flop validado**: título *"Placa de video para RYZEN 5 5600?"* (específico) pero hook hablado *"¿Qué placa de video le pongo a un Ryzen 5?"* (genérico). MOBO, mayo 2026: 1,524 views / 4.27% like rate / 0.07% share rate / 0.79% save rate / 10.7% completion. El 10.7% de completion (alto en términos relativos) sugiere que el contenido en sí no era malo — el problema fue que el algoritmo nunca lo distribuyó porque el hook hablado mató la retención inicial.
+
+**Caso ganador comparativo (Trevi, mayo 2026)**: hook hablado *"¿Qué placa de video le pongo a un Ryzen 7 5700X?"* — 520K views, 6.36% like rate, 1.36% save rate.
+
+**Diagnóstico**: "Ryzen 5" abarca 6 generaciones (1600 → 7600X). El viewer con un 5600 sabe que la respuesta no le sirve igual que al que tiene un 1600. Curiosity gap mal delimitado (ver 09_NEUROCIENCIA.md). El modelo exacto convierte el hook en pregunta cerrada con una respuesta cerrada.
+
+**Cómo usarla**: el **hook hablado** nombra siempre el **modelo más vendido o más buscado** del segmento, no la familia. El título también, pero el hablado es el que más pesa. El video se puede republicar variando el modelo (Ryzen 5 5600, Ryzen 5 7600, Ryzen 7 5700X, etc.) — cada uno es un video distinto, no canibaliza.
+
+---
+
+## Caso de estudio — Trevi vs MOBO (mayo 2026)
+
+> Mismo formato, mismo tema (recomendar GPUs para un CPU). Trevi 47x más views. Diferencia es ejecución, no formato.
+
+### Métricas comparadas
+
+| Métrica | MOBO "Placa para Ryzen 5 5600" | Trevi "GPU para Ryzen 7 5700X" |
+|---------|--------------------------------|--------------------------------|
+| Views | 1,524 | 520,000 |
+| Like rate | 4.27% | 6.36% |
+| Save rate | 0.79% | 1.36% |
+| Comment rate | 0.52% | 0.22% |
+| Share rate | 0.07% | (no disponible) |
+| Completion | 10.7% | (no disponible) |
+| Avg watch time | 13.5s | (no disponible) |
+
+**Nota clave**: el video de MOBO tenía título específico ("Ryzen 5 5600") pero el hook hablado fue genérico ("Ryzen 5"). El de Trevi era específico en hablado y título. La diferencia de distribución (341x más views) es atribuible principalmente a la primera retención: si el hook hablado pierde al viewer en los primeros 2-3 segundos, el algoritmo no distribuye, sin importar el título.
+
+---
+
+## Audit de comentarios — corpus completo YouTube (mayo 2026)
+
+> Análisis empírico del corpus completo de comentarios de @muuntechh / Muun Tech (309 videos, 18.424 comentarios totales, 15.421 con señal). Tiene autoridad equivalente al audit de Instagram y al audit de ventas. Fuente cruda en `_scripts/mobo_comments_report.md`. Reproducible vía `_scripts/scrape_yt_comments.py` + `analyze_comments.py`.
+
+### Top temas reales de la audiencia (ranqueados por frecuencia)
+
+| # | Tema | Menciones | Implicancia |
+|---|------|-----------|-------------|
+| 1 | RAM / dual channel / slots 2 y 4 | 1,328 | Dolor #1. Confusión técnica masiva. |
+| 2 | Precio / "es caro" / "no llego" | 931 | Objeción comercial principal. |
+| 3 | Monitor / Hz / 1080p / 4K | 652 | Mucha duda sobre cuándo conviene cada uno. |
+| 4 | FPS / rendimiento | 628 | Expectativas irreales recurrentes. |
+| 5 | Fuente / PSU / wattaje / cables | 477 | Confusión sobre cables modulares y compatibilidad. |
+| 6 | Intel i3/i5/i7/i9 | 476 | Comparativa AMD vs Intel sigue caliente. |
+| 7 | Motherboard / VRM / chipset | 465 | Dudas sobre compatibilidad CPU+mother. |
+| 8 | Almacenamiento SSD/M.2/NVMe | 460 | Confusión sobre cuál instalar Windows. |
+| 9 | Refrigeración / temperaturas | 445 | "¿Mi PC se va a quemar a 80 grados?" |
+| 10 | Consola vs PC | 299 | Defensiva: el que se pasa o el que se quedó. |
+
+### Regla 19 — El gaffe del dual channel (slots 2 y 4) es video correctivo obligado
+
+En los comentarios hay **2 comments con autoridad masiva (1,177 likes y 209 likes)** corrigiendo a MOBO sobre la instalación de RAM en dual channel: *"Cuando tenes dos memorias, tenes que ponerlas en los slots 2 y 4 para el dual channel - Te lo dice hasta el mismo manual del mother"*. Más otro de 115 likes matizando ("depende de la placa, puede ser 1 y 3").
+
+**Implicancia**: hay un video viejo donde MOBO mostró RAM mal puesta. La audiencia lo validó masivamente. Es **el material correctivo más obvio del banco**: video tipo *"Casi todos ponen mal la RAM y ni se enteran"* con la corrección de slots, ya validado por 1.5K+ likes en comments. Pasa Regla 7 (*"compré X y obtuve Y"*) si se enmarca como pérdida de rendimiento por mala instalación.
+
+### Regla 20 — Tus virales NO son técnicos. Son arquetipos del cliente del local.
+
+Los **30 comentarios más likeados del corpus completo** (rangos 29.5K a 1K likes) están dominados por reacciones a **personajes del local**:
+- *"Bastante boludo el cliente igual jajajaja"* — 29,546 likes
+- *"El buen caballero no era prepotente, era exigente y recompensaba bien..."* — 24,242 likes
+- *"Croto croto el cliente jajajaja"* — 5,021 likes
+- *"El mugriento quería refrigeración líquida y después andaba regateando? Mamá!"* — 4,368 likes
+- *""nos invitó a cenar, la verdad me lo comí a el""* — 4,841 likes
+
+Casi ningún comment top es técnico puro. Los técnicos top son correcciones (RAM, dual channel, megatransfers).
+
+**Implicancia operativa**: tu fortaleza viral validada por 18K comments NO es el tutorial neutral. Es **el cliente del local como arquetipo cómico**, con bardeo. Cuando el video es Formato A degradado a recomendación neutral o product showcase, los números se caen (videos GPU Ryzen 5, PC GTA 6, mayo 2026). Cuando el video es arquetipo + revelación técnica embebida, explota. Esto es coherente con Formato C (Payeros) ya validado en el audit, ahora con evidencia 10x más fuerte del propio corpus.
+
+**Cómo usarla**: priorizar contenido donde haya un **personaje real (cliente, viewer, tu hermano)** con un comportamiento absurdo + revelación técnica embebida en el bardeo. Las recomendaciones puras de componentes son save-bait, no share-bait, y estructuralmente no son tu fortaleza salvo que tengas el personaje declarado tipo Trevi (no es el caso de MOBO).
+
+### Preguntas concretas más repetidas (ya validadas, listas para Formato A)
+
+Cada una pasa el test de filtro de las 4 preguntas:
+
+1. *"¿Qué tarjeta gráfica para Ryzen 5 8600G?"* — 30 likes, modelo exacto, Regla 11 ✅
+2. *"5800X3D + RTX 5060 Ti, ¿cuello de botella?"* — 14 likes, modelo exacto ✅
+3. *"RAM 1x16 vs 2x8"* — debate caliente con 4+ respuestas enfrentadas
+4. *"¿Cada cuánto el mantenimiento?"* — 24 likes, universal
+5. *"Tengo el mismo case, ¿qué gráfica?"* — 25 likes, replicable
+
+### Objeciones comerciales del corpus (oro para responder en contenido)
+
+| Objeción | Menciones | Estrategia |
+|----------|-----------|------------|
+| "Ya tengo X y me anda bien" (defensiva) | 398 | Difícil de revertir directo. Mejor ignorar y targetear al que NO tiene PC. |
+| "Es caro / no llego" | 143 | Principal. Trabajable con Regla 9 (injusticia económica): "te están haciendo gastar de más en X cuando no necesitás". |
+| "Estafa / chamuyo / verso" | 90 | Grupo desconfiado. Trabajable con transparencia (mostrar margen, mostrar cómo se fija el precio). |
+| "Mejor compro usado" | 34 | Baja frecuencia. Transformable en contenido tipo "guía para comprar usado sin que te claven" (insight contraintuitivo + plug embebido del local como ALTERNATIVA confiable). |
+| "Mejor compro consola" | 13 | Baja frecuencia. No vale la pena targetear. |
+
+### Insight cruzado con Formato C (Payeros)
+
+El corpus confirma que el patrón viral de MOBO es **Formato C aplicado a clientes reales del local**, no arquetipos genéricos. El audit original ya identificaba Payeros como referente, pero el corpus muestra que la versión MOBO es **más específica**: el personaje no es "tu amigo X" genérico, es **un cliente real de la tienda con un comportamiento absurdo verificado**. Eso baja la fricción del viewer (es 100% real) y suma la dimensión de "soy testigo de la cagada" que los virales de bardeo necesitan.
+
+### Las 5 diferencias estructurales (validadas por números)
+
+1. **Hook con modelo exacto**, no familia. Ver Regla 11.
+2. **Opinión filosa / personaje**, no locutor neutral. Trevi bardea al CPU hermano ("parece que tiene retraso") y declara favorito personal ("la que le tengo mucho cariño"). MOBO leyó specs sin tomar postura.
+3. **Frame de "información confidencial / hack"** en lugar de "recomendación". Trevi: *"esto es información confidencial, guardátelo"* + *"es un hack impresionante"*. Reframe: el save deja de ser deber y pasa a ser inteligencia.
+4. **Plug como insight contraintuitivo**, no como aviso. Trevi vende "comprá usado en [X] con 16 meses de garantía" — eso ES contenido útil. MOBO dijo "envíos a todo el país y 12 meses de garantía" — eso es copy de e-commerce.
+5. **CTA con personaje propio**, no genérico. Trevi: *"si querés preguntarle algo a Trevi, o sea yo, ponelo en comentarios"*. MOBO: *"comentá tu procesador y seguime"* (CTA prohibido por CLAUDE.md).
+
+### Lo replicable y lo que NO
+
+**Replicable directo**:
+- Hook con modelo exacto (Regla 11)
+- Opinión filosa sobre componentes (favorito declarado, bardeo al modelo inferior)
+- Plug como hack/insight, no como aviso
+- CTA con personaje, no genérico
+
+**NO replicable directo en MOBO**:
+- "Comprá usado" no funciona (MOBO vende nuevo). El equivalente tiene que ser otro insight contraintuitivo: "no compres la versión X que parece igual pero es Y", "esta sale más barata que la que todos recomiendan", "esta GPU vieja le gana a la nueva en este caso", etc.
+- Recomendar específicamente lo que está en stock con un ángulo lateral (no "lo más vendido" salvo que el ángulo sea "todos compran X y se equivocan").
 
 ---
 
